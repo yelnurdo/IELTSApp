@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1DD379F02B6269BA00AC1442 /* IELTSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD379EF2B6269BA00AC1442 /* IELTSApp.swift */; };
-		1DD379F22B6269BA00AC1442 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD379F12B6269BA00AC1442 /* ContentView.swift */; };
 		1DD379F42B6269BB00AC1442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD379F32B6269BB00AC1442 /* Assets.xcassets */; };
 		1DD379F72B6269BB00AC1442 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD379F62B6269BB00AC1442 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +15,6 @@
 /* Begin PBXFileReference section */
 		1DD379EC2B6269BA00AC1442 /* IELTS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IELTS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD379EF2B6269BA00AC1442 /* IELTSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IELTSApp.swift; sourceTree = "<group>"; };
-		1DD379F12B6269BA00AC1442 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1DD379F32B6269BB00AC1442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DD379F62B6269BB00AC1442 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,8 +49,8 @@
 		1DD379EE2B6269BA00AC1442 /* IELTS */ = {
 			isa = PBXGroup;
 			children = (
-				1DD379EF2B6269BA00AC1442 /* IELTSApp.swift */,
-				1DD379F12B6269BA00AC1442 /* ContentView.swift */,
+				1DDD0F832B6272C80064D0C6 /* App */,
+				1DDD0F842B6272DC0064D0C6 /* Components */,
 				1DD379F32B6269BB00AC1442 /* Assets.xcassets */,
 				1DD379F52B6269BB00AC1442 /* Preview Content */,
 			);
@@ -65,6 +63,21 @@
 				1DD379F62B6269BB00AC1442 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DDD0F832B6272C80064D0C6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1DD379EF2B6269BA00AC1442 /* IELTSApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1DDD0F842B6272DC0064D0C6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +150,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DD379F22B6269BA00AC1442 /* ContentView.swift in Sources */,
 				1DD379F02B6269BA00AC1442 /* IELTSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
